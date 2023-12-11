@@ -1,7 +1,6 @@
 type IntType = usize;
 const BOARD_SIZE: usize = IntType::BITS as usize;
 
-// hopefully does not implicitly call this
 #[derive(Copy, Clone)] 
 struct Board {
     data: [IntType; BOARD_SIZE],
